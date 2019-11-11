@@ -8,8 +8,8 @@
                 <div class="row justify-content-center">
                     <div class="col-md-4">
                         <div class="card-body">
-                            <h3>{{ $star->star_name }}</h3>
-                            <h3>{{ $star->your_name }}</h3>
+                            <h3 style="text-align: center;">{{ $star->star_name }}</h3>
+                            <h3 style="text-align: center;">{{ $star->your_name }}</h3>
                         </div>
                     </div>
                     <div class="col-md-8">
