@@ -25,7 +25,7 @@ class StarController extends Controller
     public function view($star_code) {
         $star = Star::where('code', $star_code)->first();
         if (!$star) {
-            return error(404);
+            return abort(404);
         }
         else {
             return view('star', array('star' => $star));
